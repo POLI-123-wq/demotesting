@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>店铺菜单</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的店铺</h1>
+        <p>查看我们最新的服装款式</p>
+    </header>
+
+    <div class="menu">
+        <div class="filter">
+            <label for="category">筛选类别：</label>
+            <select id="category">
+                <option value="all">全部</option>
+                <option value="shirt">衬衫</option>
+                <option value="pants">裤子</option>
+                <option value="jacket">夹克</option>
+            </select>
+        </div>
+
+        <div class="items" id="items">
+            <!-- 商品项将通过JavaScript动态加载 -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
